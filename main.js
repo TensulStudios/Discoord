@@ -256,3 +256,5 @@ function ShowInputModal(title, description, inputPlaceholder, optional) {
     wrapper.querySelector('.modal-cancel').onclick = () => closeModal(null);
   });
 }
+
+ShowInfoModal("Hello!", "This is a Discoord test.", "Okay.")
